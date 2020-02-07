@@ -1,3 +1,4 @@
+[![GitHub release](https://img.shields.io/github/release/igolaizola/mqtt-stream.svg)](https://github.com/igolaizola/mqtt-stream/releases)
 [![Go Report Card](https://goreportcard.com/badge/igolaizola/mqtt-stream)](http://goreportcard.com/report/igolaizola/mqtt-stream)
 [![license](https://img.shields.io/github/license/igolaizola/mqtt-stream.svg)](https://github.com/igolaizola/mqtt-stream/blob/master/LICENSE.md)
 
