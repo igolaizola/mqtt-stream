@@ -34,8 +34,8 @@ func main() {
 	fs.StringVar(&cfg.clientID, "client-id", fmt.Sprintf("mqtt-stream-%x", rnd), "client id")
 	fs.StringVar(&cfg.username, "username", "", "username")
 	fs.StringVar(&cfg.password, "password", "", "password")
-	fs.BoolVar(&cfg.hex, "hex", false, "true: hexadecimal output, false: string output")
-	fs.BoolVar(&cfg.hex, "echo", false, "echo data from topic `from` to topic `to`")
+	fs.BoolVar(&cfg.hex, "hex", false, "enable hexadecimal input/output")
+	fs.BoolVar(&cfg.echo, "echo", false, "enable echo data from topic \"from\" to topic \"to\"")
 	fs.BoolVar(&verbose, "v", false, "enable verbose logs")
 	if err := ff.Parse(fs, os.Args[1:],
 		ff.WithConfigFileFlag("config"),
